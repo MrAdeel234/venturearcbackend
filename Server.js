@@ -24,7 +24,7 @@ const uri = "mongodb+srv://adeelmazhar778:adeel@cluster0.c5ydg.mongodb.net/ventu
 const clientOptions = { serverApi: { version: '1', strict: true, deprecationErrors: true } };
 mongoose
   .connect(uri, clientOptions)
-  .then(() => console.log("Connected to MongoDB"))
+  .then(() => console.log("Connected to MongoDB Database"))
   .catch((err) => console.error("MongoDB connection error:", err));
 
 // Routes
