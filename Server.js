@@ -7,7 +7,7 @@ import { Server } from "socket.io";
 import http from "http";
 import userRoutes from "./routes/userRoutes.js";
 import ideaRoutes from "./routes/IdeaRoutes.js";
-import messageRoutes from "./routes/messageRoutes.js";
+import messageRoutes from "./routes/MessageRoutes.js"
 import MessageModel from "./Models/MessageModel.js";
 
 dotenv.config();
